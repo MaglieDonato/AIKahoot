@@ -1,0 +1,144 @@
+:root {
+    --grigio: #54423f;
+    --indaco:#8D80AD;
+    --azzurro:#b1c2e1;
+    --verdeAcqua:#cafaf6;
+    --verde:#b2f1c5;
+}
+
+*{
+    color: var(--grigio) !important;
+}
+
+body{
+    background-color: #99B2DD;
+}
+header{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+h1{
+    margin-top: 10px;
+    font-size:22px ;
+}
+
+#primo{
+    background-color: var(--verdeAcqua);
+    padding: 13px;
+    border-radius: 20px;
+    border: 2px solid var(--grigio);
+    margin-bottom: 10px;
+}
+#secondo{
+    background-color: var(--verdeAcqua);
+    padding: 13px;
+    border-radius: 20px;
+    border: 2px solid var(--grigio);
+    margin-bottom: 10px;
+}
+#terzo{
+    background-color: var(--verdeAcqua);
+    padding: 13px;
+    border-radius: 20px;
+    border: 2px solid var(--grigio);
+    margin-bottom: 10px;
+}
+#quarto{
+    background-color: var(--verdeAcqua);
+    padding: 13px;
+    border-radius: 20px;
+    border: 2px solid var(--grigio);
+    margin-bottom: 10px;
+}
+#quinto{
+    background-color: var(--verdeAcqua);
+    padding: 13px;
+    border-radius: 20px;
+    border: 2px solid var(--grigio);
+    margin-bottom: 10px;
+}
+#sesto{
+    background-color: var(--verdeAcqua);
+    padding: 13px;
+    border-radius: 20px;
+    border: 2px solid var(--grigio);
+    margin-bottom: 10px;
+}
+#settimo{
+    background-color: var(--verdeAcqua);
+    padding: 13px;
+    border-radius: 20px;
+    border: 2px solid var(--grigio);
+    margin-bottom: 10px;
+}
+#ottavo{
+    background-color: var(--verdeAcqua);
+    padding: 13px;
+    border-radius: 20px;
+    border: 2px solid var(--grigio);
+    margin-bottom: 10px;
+}
+#nono{
+    background-color: var(--verdeAcqua);
+    padding: 13px;
+    border-radius: 20px;
+    border: 2px solid var(--grigio);
+    margin-bottom: 10px;
+}
+#decimo{
+    background-color: var(--verdeAcqua);
+    padding: 13px;
+    border-radius: 20px;
+    border: 2px solid var(--grigio);
+    margin-bottom: 10px;
+}
+#undicesimo{
+    background-color: var(--verdeAcqua);
+    padding: 13px;
+    border-radius: 20px;
+    border: 2px solid var(--grigio);
+    margin-bottom: 10px;
+}
+#dodicesimo{
+    background-color: var(--verdeAcqua);
+    padding: 13px;
+    border-radius: 20px;
+    border: 2px solid var(--grigio);
+    margin-bottom: 10px;
+}
+#tredicesimo{
+    background-color: var(--verdeAcqua);
+    padding: 13px;
+    border-radius: 20px;
+    border: 2px solid var(--grigio);
+    margin-bottom: 10px;
+}
+#quattordicesimo{
+    background-color: var(--verdeAcqua);
+    padding: 13px;
+    border-radius: 20px;
+    border: 2px solid var(--grigio);
+    margin-bottom: 10px;
+}
+#quindicesimo{
+    background-color: var(--verdeAcqua);
+    padding: 13px;
+    border-radius: 20px;
+    border: 2px solid var(--grigio);
+    margin-bottom: 10px;
+}
+
+hr{
+    border-color: var(--grigio);
+    border-width: 2px; 
+}
+
+button{
+    background-color: white;
+    color: #54423f !important;
+    border: 1px solid #54423f;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    width: 100px;
+}

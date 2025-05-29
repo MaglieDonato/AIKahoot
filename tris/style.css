@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background: rgb(255,105,120);
+    background: radial-gradient(circle, rgba(255,105,120,1) 0%, rgba(107,101,112,1) 100%);
+}
+
+.letteraBlu{
+    color: #080357;
+}
+.letteraGialla{
+    color:#FF9F1C;
+}
+#h1{
+    margin-top: 30px;
+    font-size: 80px;
+}
+h1{
+    margin-top: 5%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 100px;
+}
+main{
+    justify-content: center;
+    display: flex;
+}
+.menu{
+    margin-top: 8%;
+    
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.row.col main{
+    margin-top: 3000px;
+}
+a {
+    text-decoration-line: none;
+    color: #080357;
+}
+.team{
+    width: 300px;
+    height: 50px;
+    border-radius: 13px;
+    background-color: #EAF9D9;
+    border:1.5px solid #EAF9D9;
+}
+.team.X{
+    background-color:#FF9F1C;
+}
+.team.O{
+    background-color: #080357;
+    color: #EAF9D9;
+}
+.team.X:hover{
+    background-color: #fcaf43;
+}
+.team.O:hover{
+    background-color: #3228c8;
+}
+.voce {
+    background-color: #FF9F1C;
+    border-radius: 15px;
+    width: 550px;
+    margin-top: 10px;
+    border: 2px solid #EAF9D9;
+    padding: 5px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    animation-duration: 0.2s;
+}
+
+.voce:hover {
+    background-color: #fcaf43;
+    animation-fill-mode: forwards; 
+    animation-name: animazione;
+
+}
+
+@keyframes animazione {
+    0% {
+        transform: scale(1);
+    }
+    25%{
+        transform: scale(1.12);
+    }
+    50% {
+        transform: scale(1.25);
+    }
+    75%{
+        transform: scale(1.35);
+    }
+    100% {
+        transform: scale(1.5); 
+    }
+}
+
+#tabella{
+    width: 602px;
+    height: 602px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    display: flex;
+    background-image: url('immagini/tabella1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 195%;
+}
+container{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cella{
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+}
+
+.decorazioni{
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+.croce {
+    background-image: url('immagini/croce.png'); 
+    background-size: cover; 
+}
+.cerchio{
+    background-image: url('immagini/cerchio.png'); 
+    background-size: cover; 
+}
+#giocaLink{
+    font-size: 25px;
+    
+}
+
+.gioca{
+    width: 100px;
+    padding: 6px;
+    background-color: #EAF9D9;
+    border-radius: 12px;
+    border: 3px solid #080357;
+    margin: auto;
+}
+
+
+.gioca:hover{
+    background-color: #fcaf43;
+}
+#fine {
+    position: absolute;
+    background-color: #6b6570df;
+    justify-content: center;
+    display: flex;
+    align-self: center;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    border-radius: 25px;
+
+}
+
+#vit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+    font-size: 50px;
+    padding: 10px;
+}
+#home{
+    width: 200px;
+    height: 120px;
+    border: 1px solid #080357;
+}
+.b{
+    margin: auto;
+    width: 60%;
+    background-color: #fcaf43;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    margin-top: 10%;
+    padding: 5px;
+    border: 2px solid #080357;
+}
+#replay{
+    color: #080357;
+}
+
